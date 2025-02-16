@@ -4,7 +4,7 @@
     "description": "Proyecto React mejorado",
     "main": "src/index.js",
     "scripts": {
-        "start": "serve -s build -l 10000",
+        "start": "react-scripts start",
         "prebuild": "chmod +x node_modules/.bin/react-scripts",
         "build": "set CI=false && react-scripts build",
         "test": "react-scripts test",
