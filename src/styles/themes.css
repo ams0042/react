@@ -1,0 +1,19 @@
+:root {
+  /* Modo claro */
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --text-primary: #333333;
+  --border: #e0e0e0;
+  --accent: #8e44ad;
+  --accent-hover: #732d91;
+}
+
+[data-theme="dark"] {
+  /* Modo oscuro */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --text-primary: #f8f9fa;
+  --border: #444444;
+  --accent: #bb86fc;
+  --accent-hover: #9a67ea;
+}
